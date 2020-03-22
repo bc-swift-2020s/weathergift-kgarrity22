@@ -15,11 +15,11 @@
 		7EFF34952416B40900F140CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EFF34942416B40900F140CB /* Assets.xcassets */; };
 		7EFF34982416B40900F140CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EFF34962416B40900F140CB /* LaunchScreen.storyboard */; };
 		7EFF34A02416B43200F140CB /* WeatherLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFF349F2416B43200F140CB /* WeatherLocation.swift */; };
-		CF3567DD6FA026B4E329FFA6 /* libPods-WeatherGift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1B6E9FCAF66F8AEEB2065E /* libPods-WeatherGift.a */; };
+		FC05DEDCBC11E801E455028E /* libPods-WeatherGift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC2065455E13F0826051859 /* libPods-WeatherGift.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3E1B6E9FCAF66F8AEEB2065E /* libPods-WeatherGift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeatherGift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC2065455E13F0826051859 /* libPods-WeatherGift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeatherGift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E457D312416BE2700805932 /* LocationListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationListViewController.swift; sourceTree = "<group>"; };
 		7E72DEB32426E76A00BED285 /* APIkeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIkeys.swift; sourceTree = "<group>"; };
 		7EFF34882416B40400F140CB /* WeatherGift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherGift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,7 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF3567DD6FA026B4E329FFA6 /* libPods-WeatherGift.a in Frameworks */,
+				FC05DEDCBC11E801E455028E /* libPods-WeatherGift.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,7 +49,7 @@
 		568D1C380A66C28C41AAF580 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3E1B6E9FCAF66F8AEEB2065E /* libPods-WeatherGift.a */,
+				5BC2065455E13F0826051859 /* libPods-WeatherGift.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -108,7 +108,7 @@
 				7EFF34842416B40400F140CB /* Sources */,
 				7EFF34852416B40400F140CB /* Frameworks */,
 				7EFF34862416B40400F140CB /* Resources */,
-				E09B7FA2A3EF8180763FFC99 /* [CP] Copy Pods Resources */,
+				DF48E1B4F963EF69EC8818CB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,7 +188,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E09B7FA2A3EF8180763FFC99 /* [CP] Copy Pods Resources */ = {
+		DF48E1B4F963EF69EC8818CB /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
