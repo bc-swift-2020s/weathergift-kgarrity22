@@ -30,6 +30,18 @@
                                 </constraints>
                                 <items>
                                     <barButtonItem title="About" id="80R-5C-Srq"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="yr4-1C-yOV"/>
+                                    <barButtonItem style="plain" id="kaR-br-E8k">
+                                        <pageControl key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" id="f79-xU-1SM">
+                                            <rect key="frame" x="76" y="4" width="167" height="37"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="pageIndicatorTintColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="currentPageIndicatorTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <connections>
+                                                <action selector="pageControlTapped:" destination="ho8-zh-yqW" eventType="valueChanged" id="0ba-gJ-hXG"/>
+                                            </connections>
+                                        </pageControl>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="70V-4b-lqX"/>
                                     <barButtonItem image="list.bullet" catalog="system" id="fkS-Yt-nyr">
                                         <connections>
@@ -37,6 +49,7 @@
                                         </connections>
                                     </barButtonItem>
                                 </items>
+                                <color key="tintColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </toolbar>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nsi-Bb-bHC">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="225"/>
@@ -95,6 +108,7 @@
                     <connections>
                         <outlet property="dateLabel" destination="vCp-Jn-pM2" id="6dT-aX-4dM"/>
                         <outlet property="imageView" destination="201-bN-mY3" id="p35-Zt-YBG"/>
+                        <outlet property="pageControl" destination="f79-xU-1SM" id="pKW-tR-Uh1"/>
                         <outlet property="placeLabel" destination="Gjl-po-lzq" id="vVa-vc-cdx"/>
                         <outlet property="summaryLabel" destination="cLC-gp-QUq" id="rfZ-d3-iMc"/>
                         <outlet property="temperatureLabel" destination="viN-Gt-7BH" id="4yM-7P-Ihq"/>
@@ -102,7 +116,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZeE-Lm-zYu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-778" y="116"/>
+            <point key="canvasLocation" x="-778.125" y="115.14084507042254"/>
         </scene>
         <!--Location List View Controller-->
         <scene sceneID="tne-QT-ifu">
